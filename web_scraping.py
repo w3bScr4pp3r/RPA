@@ -64,7 +64,7 @@ def scrape_wikipedia(article_title=None, url=None, paragraphs=3):
 
 # Exemplo de uso
 if __name__ == "__main__":
-    # Buscar artigo sobre Python (linguagem de programação)
+    # Buscar artigo da Wikipedia
     texto_a_ser_pesquisado = input("Digite o texto a ser pesquisado: ")
     content = scrape_wikipedia(article_title=texto_a_ser_pesquisado, paragraphs=0)
     # Verificar se ocorreu algum erro
